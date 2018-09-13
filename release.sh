@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-version=0.1.48
+version=0.1.0
 
 helm package --version $version helloworld-simple
 helm package --version $version helloworld-db
