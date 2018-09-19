@@ -27,6 +27,9 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
+          env:
+            - name: "helloworld_db_postgres"
+              value: "helloworld_db_postgres{{ .Values.env }}-postgres"
           livenessProbe:
             httpGet:
               path: /actuator/health
