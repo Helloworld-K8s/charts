@@ -29,7 +29,7 @@ spec:
               protocol: TCP
           env:
             - name: "helloworld_db_postgres"
-              value: "helloworld_db_postgres{{ .Values.env }}-postgres"
+              value: "helloworld-db{{ .Values.env }}-postgres"
           livenessProbe:
             httpGet:
               path: /actuator/health
