@@ -10,7 +10,7 @@ spec:
   commonName:
   dnsNames:
   {{- range .Values.ingress.hosts }}
-    - http{{ if $.Values.ingress.tls }}s{{ end }}://{{ . }}
+    - {{ . }}
   {{- end }}
   acme:
     config:
@@ -18,5 +18,5 @@ spec:
         ingressClass: nginx
       domains:
       {{- range .Values.ingress.hosts }}
-        - http{{ if $.Values.ingress.tls }}s{{ end }}://{{ . }}
+        - {{ . }}
       {{- end }}
