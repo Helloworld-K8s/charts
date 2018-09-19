@@ -3,7 +3,16 @@ entries:
   api-gateway:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.399777038+02:00
+    created: 2018-09-19T10:15:55.70874687+02:00
+    description: A Helm chart for Kubernetes
+    digest: d2d1c6254183cada64ed1438681c3ed456643f8623d03353abba8baa1a81792a
+    name: api-gateway
+    urls:
+    - https://helloworld-k8s.github.io/charts/api-gateway-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-19T10:15:55.708539582+02:00
     description: A Helm chart for Kubernetes
     digest: aa43d7b4ced1671f9b0ed3cbda640d13df095db56de74a8f5db15e2132bd3c51
     name: api-gateway
@@ -12,7 +21,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.399559824+02:00
+    created: 2018-09-19T10:15:55.70833715+02:00
     description: A Helm chart for Kubernetes
     digest: 4242f37d7a13a2bb81606b824c1685c4ed513e4cc9e341fc1e21e87847d27a4d
     name: api-gateway
@@ -21,7 +30,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.399200938+02:00
+    created: 2018-09-19T10:15:55.708119746+02:00
     description: A Helm chart for Kubernetes
     digest: 1e4a8e9c4945946c67676c23cde5ae579867282f3071682e35c6fdf1ed6a6191
     name: api-gateway
@@ -31,7 +40,16 @@ entries:
   helloworld-db:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.401534889+02:00
+    created: 2018-09-19T10:15:55.710037647+02:00
+    description: A Helm chart for Kubernetes
+    digest: e53a642e5c1ba861cc8c183a184ea9110b0091c80c7c20adb29d719dcbc7b4cd
+    name: helloworld-db
+    urls:
+    - https://helloworld-k8s.github.io/charts/helloworld-db-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-19T10:15:55.709812521+02:00
     description: A Helm chart for Kubernetes
     digest: 8764751dad37f541fd3d56100841fc23a61b37e9040d5e64eb44cb04c828ea3b
     name: helloworld-db
@@ -40,7 +58,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.401316211+02:00
+    created: 2018-09-19T10:15:55.709593574+02:00
     description: A Helm chart for Kubernetes
     digest: 7357fa182f4f4407a668e617f3238b4251f39867dd7f001fcdc007347481c180
     name: helloworld-db
@@ -49,7 +67,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.400917541+02:00
+    created: 2018-09-19T10:15:55.709380438+02:00
     description: A Helm chart for Kubernetes
     digest: 4d243147a29d8e96d799d3900ebda237913b8a5151595b53a8fe104e83e4ce25
     name: helloworld-db
@@ -58,7 +76,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.400520287+02:00
+    created: 2018-09-19T10:15:55.709165624+02:00
     description: A Helm chart for Kubernetes
     digest: 4ffa8823af7aefa53ea04c6dec1cf27314aea3a532284f22904e72193976e6cc
     name: helloworld-db
@@ -67,7 +85,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.400153565+02:00
+    created: 2018-09-19T10:15:55.70895016+02:00
     description: A Helm chart for Kubernetes
     digest: e316ba0d0cafb7bbff57a0142ea5d6ac2b6c7531c07daeaadb801068223a8635
     name: helloworld-db
@@ -77,7 +95,16 @@ entries:
   helloworld-ingress:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.40325265+02:00
+    created: 2018-09-19T10:15:55.711334064+02:00
+    description: A Helm chart for Kubernetes
+    digest: 4d860cfa008174a7edddf4d8692265b93bca644dd72c0b9c7d9aa146d5a54599
+    name: helloworld-ingress
+    urls:
+    - https://helloworld-k8s.github.io/charts/helloworld-ingress-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-19T10:15:55.711119482+02:00
     description: A Helm chart for Kubernetes
     digest: 93069f5a6f1c12c1e3cbf6188ce9369ee56b4e933a05e08d1e6896632c5404e5
     name: helloworld-ingress
@@ -86,7 +113,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.403035424+02:00
+    created: 2018-09-19T10:15:55.710905046+02:00
     description: A Helm chart for Kubernetes
     digest: d6d2bf3dd3225d69b70f6867f1b84bc64dcc9ba92707cdee5762635a2488d8f7
     name: helloworld-ingress
@@ -95,7 +122,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.402633836+02:00
+    created: 2018-09-19T10:15:55.710676536+02:00
     description: A Helm chart for Kubernetes
     digest: 47bea2abb30c87b22760e23bf4013b862b73ef8d668ecdcd3596722b1b7bf5b8
     name: helloworld-ingress
@@ -104,7 +131,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.402259018+02:00
+    created: 2018-09-19T10:15:55.710441215+02:00
     description: A Helm chart for Kubernetes
     digest: b1a6e74c57a478e2b73c166bd482e07232a36905e536de6ee9992238aabdb07b
     name: helloworld-ingress
@@ -113,7 +140,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.401893555+02:00
+    created: 2018-09-19T10:15:55.710239734+02:00
     description: A Helm chart for Kubernetes
     digest: 66f3e745702d278841187b05a4106209012cdd018e3cf0be8fdff2c88b5a8491
     name: helloworld-ingress
@@ -123,7 +150,16 @@ entries:
   helloworld-simple:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.404977031+02:00
+    created: 2018-09-19T10:15:55.712602338+02:00
+    description: A Helm chart for Kubernetes
+    digest: 091f4673c5dfae5c3786d1e150d49962fb976aeb788c9aae656e147061e6fba0
+    name: helloworld-simple
+    urls:
+    - https://helloworld-k8s.github.io/charts/helloworld-simple-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-09-19T10:15:55.712396482+02:00
     description: A Helm chart for Kubernetes
     digest: b68a3513d1fd91911168e520f8c338494d1ecc648872415ba3517eb87563456d
     name: helloworld-simple
@@ -132,7 +168,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.404743101+02:00
+    created: 2018-09-19T10:15:55.712186701+02:00
     description: A Helm chart for Kubernetes
     digest: 2983ec4762794ddea4f45757637b8e176596567d63cc22af3e3187ea009838ec
     name: helloworld-simple
@@ -141,7 +177,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.404349149+02:00
+    created: 2018-09-19T10:15:55.711969465+02:00
     description: A Helm chart for Kubernetes
     digest: 2896264a7d5310599c4343a629cb30a2f7ae0b67e4711502ca9934005b7eb0a5
     name: helloworld-simple
@@ -150,7 +186,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.4039652+02:00
+    created: 2018-09-19T10:15:55.711752272+02:00
     description: A Helm chart for Kubernetes
     digest: 64ac1c562d2a691f8753a37b2297783112652738066d38aac57e48d3d14cede8
     name: helloworld-simple
@@ -159,11 +195,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-19T09:38:25.403606738+02:00
+    created: 2018-09-19T10:15:55.711545638+02:00
     description: A Helm chart for Kubernetes
     digest: 08f094463b84c58b702d6554a017508a0e9a1cd18f82ccdba5fdb16b3a40866d
     name: helloworld-simple
     urls:
     - https://helloworld-k8s.github.io/charts/helloworld-simple-0.1.0.tgz
     version: 0.1.0
-generated: 2018-09-19T09:38:25.398642126+02:00
+generated: 2018-09-19T10:15:55.707800103+02:00

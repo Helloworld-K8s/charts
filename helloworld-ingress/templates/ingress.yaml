@@ -22,8 +22,8 @@ spec:
       {{- range .hosts }}
         - {{ . }}
       {{- end }}
-      secretName: {{ .secretName }}
   {{- end }}
+      secretName: {{ template "helloworld-ingress.name" . }}
 {{- end }}
   rules:
   {{- range .Values.ingress.hosts }}
