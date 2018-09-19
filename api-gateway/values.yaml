@@ -45,5 +45,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-env: dev
