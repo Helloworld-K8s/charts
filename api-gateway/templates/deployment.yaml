@@ -29,7 +29,7 @@ spec:
               protocol: TCP
           env:
             - name: "helloworld_ingress_url"
-              value: "helloworld-ingress-{{ .Values.env }}"
+              value: "helloworld-ingress{{ .Values.env }}"
 #          livenessProbe:
 #            httpGet:
 #              path: /
