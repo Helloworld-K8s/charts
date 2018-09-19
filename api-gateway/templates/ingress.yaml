@@ -23,7 +23,7 @@ spec:
         - {{ . }}
       {{- end }}
   {{- end }}
-      secretName: {{ template "helloworld-ingress.name" . }}
+      secretName: {{ template "api-gateway.name" . }}
 {{- end }}
   rules:
   {{- range .Values.ingress.hosts }}
